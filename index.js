@@ -13,6 +13,10 @@ app.get("/mytwitter",(req,res)=>{
     res.send("twitter tweets")
 })
 
+app.get("/testRoutes",(req,res)=>{
+    res.send("testing")
+})
+
 app.get("/login",(req,res)=>{
     res.send('<h1> Please login</h1>');
 })
